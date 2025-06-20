@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'co_tax_lookup.urls'
+ROOT_URLCONF = 'ctl.urls'
 
 TEMPLATES = [
     {
@@ -66,7 +66,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'co_tax_lookup.wsgi.application'
+WSGI_APPLICATION = 'ctl.wsgi.application'
 
 
 # Database

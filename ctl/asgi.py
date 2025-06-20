@@ -1,5 +1,5 @@
 """
-ASGI config for co_tax_lookup project.
+ASGI config for ctl project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'co_tax_lookup.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ctl.settings')
 
 application = get_asgi_application()
